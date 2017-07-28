@@ -1,10 +1,9 @@
 {
   "name": "test-atom-package",
   "main": "./lib/test-atom-package",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This currently reverses everything in the buffer.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "test-atom-package:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
