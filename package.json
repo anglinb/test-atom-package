@@ -1,0 +1,18 @@
+{
+  "name": "test-atom-package",
+  "main": "./lib/test-atom-package",
+  "version": "0.0.1",
+  "description": "This currently reverses everything in the buffer.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "test-atom-package:toggle"
+  },
+  "repository": "https://github.com/anglinb/test-atom-package",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
